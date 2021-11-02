@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:islamy/HomePage.dart';
 import 'package:islamy/ThemeData.dart';
 import 'package:islamy/hadeth/hadethDetailesScreen.dart';
+import 'package:islamy/quran/suraDetailesScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       routes: {
         HomePage.routename: (buildContext) => HomePage(),
+        SuraDetailesScreen.routName: (buildContext) => SuraDetailesScreen(),
         HadethDetailesScreen.routName: (buildContext) => HadethDetailesScreen(),
       },
       initialRoute: HomePage.routename,
