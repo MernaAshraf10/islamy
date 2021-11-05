@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:islamy/Sebha/SebhaTab.dart';
 import 'package:islamy/ThemeData.dart';
 import 'package:islamy/hadeth/hadethTab.dart';
